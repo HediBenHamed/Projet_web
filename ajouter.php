@@ -1,8 +1,7 @@
 <?PHP
-include "../entites/livraison.php";
+include "../entities/livraison.php";
 include "../core/livraisonC.php";
 
-include_once "../config.php";
 
 $sql="INSERT into livraison (id,idc,num,adr,date) values (:id,:idc,:num,:adr,:date)";
 		echo"test";
